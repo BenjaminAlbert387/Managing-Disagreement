@@ -82,7 +82,7 @@ label scenario_two:
     menu:
         "How do you respond to Person B?":
 
-            "Agree to vote immediately so the meeting can move forward.":
+        "Agree to vote immediately so the meeting can move forward.":
                 $ active_listening_score -= 1
                 $ inclusion_score -= 2
                 $ resolution_score += 0
@@ -97,7 +97,7 @@ label scenario_two:
 
                 y "{i}A majority vote can settle a disagreement. It doesn't automatically mean we've made the best decision we could have made.{/i}"
 
-            "Pause the discussion and invite the quieter Trustees to speak.":
+        "Pause the discussion and invite the quieter Trustees to speak.":
                 $ active_listening_score += 2
                 $ inclusion_score += 2
                 $ resolution_score += 1
@@ -118,7 +118,7 @@ label scenario_two:
 
                 y "{i}I'm not trying to give one person more influence than another. I'm trying to make sure everyone has a fair opportunity to contribute before we decide.{/i}"
 
-            "Tell Person B that they are dominating the meeting.":
+        "Tell Person B that they are dominating the meeting.":
                 $ active_listening_score += 0
                 $ inclusion_score += 1
                 $ resolution_score -= 1
