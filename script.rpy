@@ -91,7 +91,9 @@ label scenario_two:
 
                 b "Exactly. Thank you."
 
-                "A vote is called. Several Trustees raise their hands, but Person C does not."
+                "A vote is called. Several Trustees begin to raise their hands, but Person C does not."
+
+                "Then, the trustees put their hands back down. It's clear they are second guessing the vote."
 
                 y "{i}We've reached a decision quickly, but speed isn't the same as good decision-making. We haven't established whether the concerns have been properly understood.{/i}"
 
@@ -120,8 +122,8 @@ label scenario_two:
 
         "Tell Person B that they are dominating the meeting.":
                 $ active_listening_score += 0
-                $ inclusion_score += 1
-                $ resolution_score -= 1
+                $ inclusion_score += -1
+                $ resolution_score += 1
 
                 y "Person B, you're dominating the conversation. We need to let other people speak."
 
