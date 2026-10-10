@@ -4,7 +4,7 @@ define b = Character("Person B")
 define c = Character("Person C")
 
 # HUD display
-default listening_score = 0
+default active_listening_score = 0
 default inclusion_score = 0
 default resolution_score = 0
 
@@ -15,7 +15,7 @@ screen confidence_ui():
         spacing 5
 
         frame:
-            text "Active Listening Score (Considers opposing viewpoints before making a judgement): [listening_score]"
+            text "Active Listening Score (Considers opposing viewpoints before making a judgement): [active_listening_score]"
 
         frame:
             text "Inclusion Score (Creates space for quieter staff members to contribute.): [inclusion_score]"
