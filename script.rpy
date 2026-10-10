@@ -80,7 +80,7 @@ label scenario_two:
     b "What do you think? Should we just vote and move on?"
 
     menu:
-        "How do you respond to Person B?":
+        "How do you respond to Person B?"
 
         "Agree to vote immediately so the meeting can move forward.":
                 $ active_listening_score -= 1
@@ -184,7 +184,7 @@ label scenario_two:
     b "So what do we do next?"
 
     menu:
-        "How do you move the discussion forward?":
+        "How do you move the discussion forward?"
 
         "Suggest that the initiative be rejected because the risks are too high.":
                 $ active_listening_score += 0
@@ -278,7 +278,7 @@ label scenario_two:
     y "{i}I could defend the decision, dismiss their frustration, or take the opportunity to understand what went wrong. The meeting is over, but the working relationship still matters.{/i}"
 
     menu:
-        "How do you respond to Person B?":
+        "How do you respond to Person B?"
 
         "Explain that the Trustees were right to challenge the proposal.":
                 $ active_listening_score += -1
