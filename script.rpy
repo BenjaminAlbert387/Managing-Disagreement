@@ -222,7 +222,7 @@ label scenario_two:
 
                 y "{i}We've found a possible way forward by taking both concerns seriously. Nobody has got everything they originally wanted, but we have a plan that addresses the actual risks.{/i}"
 
-            "Tell Person B and Person C to settle it between themselves.":
+        "Tell Person B and Person C to settle it between themselves.":
                 $ active_listening_score += -1
                 $ inclusion_score += -1
                 $ resolution_score += -1
