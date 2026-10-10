@@ -329,7 +329,11 @@ label scenario_two:
 
     y "{i}The decision isn't perfect, and the disagreement hasn't vanished. But people have been heard, the risks are clearer, and we have a practical next step.{/i}"
 
+    # Personal ending
+
     y "{i}As a Trustee, I don't need to win every argument or make everyone happy. I need to help create the conditions for thoughtful decisions, even when people have different priorities.{/i}"
 
     y "{i}And ideally, I need to do that before the biscuits run out. Some conflicts are beyond even the most experienced leadership team.{/i}"
+
+    "Simulated Scenario Finished! Press left click on your mouse / tap your mousepad to return to the menu."
 
