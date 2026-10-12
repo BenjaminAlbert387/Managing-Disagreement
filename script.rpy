@@ -27,7 +27,7 @@ label start:
 
     show screen confidence_ui
 
-    "Welcome! To continue, please press left click on your mouse / tap your mousepad while your cursor is on the game."
+    "Welcome! To continue, please press left click on your mouse / tap your mousepad or screen while your cursor is on the game."
 
     "Great! This is a simulated scenario based on Managing Disagreement."
 
@@ -335,5 +335,5 @@ label scenario_two:
 
     y "{i}And ideally, I need to do that before the biscuits run out. Some conflicts are beyond even the most experienced leadership team.{/i}"
 
-    "Simulated Scenario Finished! Press left click on your mouse / tap your mousepad to return to the menu."
+    "Simulated Scenario Finished! Press left click on your mouse / tap your mousepad or screen to return to the menu."
 
