@@ -9,10 +9,10 @@ API_KEY = "sk_b11ac1d49990354ee77425093a9aa5f74bdbd307e16a5086"
 
 # Assign a voice ID to each character
 
-# You
+# You (Will AI voice)
 VOICE_Y = "bIHbv24MWmeRgasZH58o"
 
-# Person B
+# Person B (Jessica AI voice)
 VOICE_B = "cgSgspJ2msm6clMCkdW9"
 
 # Person C (Roger AI voice)
