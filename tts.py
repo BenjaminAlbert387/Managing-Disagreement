@@ -21,7 +21,7 @@ VOICE_C = "CwhRBWXzGAHq8TQ4Fs17"
 # Monologue (Sarah AI voice)
 VOICE_M = "FGY2WhTYpPnrIDTdsKH5"
 
-CSV_FILE = "blank_character.csv"
+CSV_FILE = "dialogue.csv"
 OUTPUT_DIR = "voice_lines"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
