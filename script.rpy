@@ -331,74 +331,74 @@ label scenario_two:
 
     # Personal ending
 
-        if active_listening_score < 0:
-                "You may have focused more on defending a position or responding to disagreement than fully understanding the other person's perspective."
+    if active_listening_score < 0:
+        "You may have focused more on defending a position or responding to disagreement than fully understanding the other person's perspective."
 
-                "This can leave people feeling dismissed and make conflict harder to resolve."
+        "This can leave people feeling dismissed and make conflict harder to resolve."
 
-                "Advice: Give others time to explain their concerns without interruption."
+        "Advice: Give others time to explain their concerns without interruption."
 
-                "Ask clarifying questions, acknowledge their feelings, and summarise their position before offering your own response."
+        "Ask clarifying questions, acknowledge their feelings, and summarise their position before offering your own response."
 
-        elif active_listening_score == 0:
-                "You may have considered some perspectives while overlooking others or moved towards solutions before fully understanding the disagreement."
+    elif active_listening_score == 0:
+        "You may have considered some perspectives while overlooking others or moved towards solutions before fully understanding the disagreement."
 
-                "Advice: Practise listening to understand rather than simply preparing your next response."
+        "Advice: Practise listening to understand rather than simply preparing your next response."
 
-                "Ask yourself whether you could accurately explain the other person's viewpoint before deciding how to proceed."
+        "Ask yourself whether you could accurately explain the other person's viewpoint before deciding how to proceed."
 
-        else:
-                "Your decisions suggest that you made an effort to understand other perspectives and engage constructively with disagreement."
+    else:
+        "Your decisions suggest that you made an effort to understand other perspectives and engage constructively with disagreement."
 
-                "Advice: Continue asking open questions, acknowledging concerns and checking your understanding."
+        "Advice: Continue asking open questions, acknowledging concerns and checking your understanding."
 
-                "As a trustee, remember that listening to a viewpoint does not mean you must agree with it."
+        "As a trustee, remember that listening to a viewpoint does not mean you must agree with it."
 
-        if inclusion_score < 0:
-                "Your decisions suggest that some voices or perspectives may not have been adequately included in the discussion."
+    if inclusion_score < 0:
+        "Your decisions suggest that some voices or perspectives may not have been adequately included in the discussion."
 
-                "When people feel excluded, the board risks overlooking important information and reinforcing existing power imbalances."
+        "When people feel excluded, the board risks overlooking important information and reinforcing existing power imbalances."
 
-                "Advice: Make a deliberate effort to invite contributions from everyone, particularly those who are quieter or less confident."
+        "Advice: Make a deliberate effort to invite contributions from everyone, particularly those who are quieter or less confident."
 
-                "Consider whose perspectives are missing and whether the meeting environment makes it easy for people to speak honestly."
+        "Consider whose perspectives are missing and whether the meeting environment makes it easy for people to speak honestly."
 
-        elif inclusion_score == 0:
-                "You demonstrated some awareness of inclusion, but there may have been missed opportunities to ensure that everyone could contribute meaningfully."
+    elif inclusion_score == 0:
+        "You demonstrated some awareness of inclusion, but there may have been missed opportunities to ensure that everyone could contribute meaningfully."
 
-                "Advice: Check whose contributions are influencing the discussion and whose are being overlooked."
+        "Advice: Check whose contributions are influencing the discussion and whose are being overlooked."
 
-                "Encourage different viewpoints and explain how contributions have informed the final decision."
+        "Encourage different viewpoints and explain how contributions have informed the final decision."
 
-        else:
-                "Your decisions suggest that you valued different perspectives and recognised the importance of giving people a meaningful opportunity to participate."
+    else:
+        "Your decisions suggest that you valued different perspectives and recognised the importance of giving people a meaningful opportunity to participate."
 
-                "Advice: Continue creating space for different viewpoints, especially when there is a strong consensus or a more senior voice dominates."
+        "Advice: Continue creating space for different viewpoints, especially when there is a strong consensus or a more senior voice dominates."
 
-                "Make sure that disagreement can be expressed respectfully without people fearing that they will be dismissed."
+        "Make sure that disagreement can be expressed respectfully without people fearing that they will be dismissed."
 
-        if resolution_score < 0:
-                "Your decisions suggest that the disagreement may not have been addressed constructively."
+    if resolution_score < 0:
+        "Your decisions suggest that the disagreement may not have been addressed constructively."
 
-                "Avoiding difficult issues, escalating tensions or pushing towards an outcome without addressing concerns can undermine trust and leave problems unresolved."
+        "Avoiding difficult issues, escalating tensions or pushing towards an outcome without addressing concerns can undermine trust and leave problems unresolved."
 
-                "Focus on the issue rather than the individuals involved. Identify the underlying concerns and look for shared objectives."
+        "Focus on the issue rather than the individuals involved. Identify the underlying concerns and look for shared objectives."
 
-                "If an immediate agreement is not possible, clarify what further discussion or information is needed."
+        "If an immediate agreement is not possible, clarify what further discussion or information is needed."
 
-        elif resolution_score == 0:
-                "You may have made some progress towards resolving the disagreement, but important concerns or next steps could remain unclear."
+    elif resolution_score == 0:
+        "You may have made some progress towards resolving the disagreement, but important concerns or next steps could remain unclear."
 
-                "Advice: Summarise the points of agreement and disagreement. Clarify the decision and explain the reasoning behind it."
+        "Advice: Summarise the points of agreement and disagreement. Clarify the decision and explain the reasoning behind it."
 
-                "Remember that a constructive outcome does not require everyone to hold the same opinion."
+        "Remember that a constructive outcome does not require everyone to hold the same opinion."
 
-        else:
-                "Your decisions suggest that you approached disagreement in a way that helped move the group towards a constructive outcome."
+    else:
+        "Your decisions suggest that you approached disagreement in a way that helped move the group towards a constructive outcome."
 
-                "Advice: Continue seeking solutions that address the underlying issues rather than simply ending the disagreement."
+        "Advice: Continue seeking solutions that address the underlying issues rather than simply ending the disagreement."
 
-                "Make sure decisions, responsibilities and follow-up actions are clear, and check that unresolved concerns are not being ignored."       
+        "Make sure decisions, responsibilities and follow-up actions are clear, and check that unresolved concerns are not being ignored."       
 
     y "{i}As a Trustee, I don't need to win every argument or make everyone happy. I need to help create the conditions for thoughtful decisions.{/i}"
 
